@@ -22,9 +22,10 @@
 
 ### Day 3: Wednesday 13 November 2024
 
-**Today's Progress**: 
+**Today's Progress**: Learnt the basics of Javascript functions
 
-**Thoughts** 
+**Thoughts** Today I headed back to my javascript tutorial refreshed, and I enjoyed it! I already have a decent understanding of functions, but now I know the basics of how they work in javascript. I particularly like arrow functions, an exciting new toy. I had to take quite a few detours while studying this material, just to teach myself some basic javascript stuff I had apparently missed / skipped, like the ? conditional operator, and some of the string methods. But it was very satisfying finding the right string method to write the functions requested. The instructions were to write them in the console, but I decided to do it on an html page I added to my liz_test git repo, which was a useful way to also revise my git command line chops (and make sure I had something to push to GitHub, as per this challenge).
 
-**Link(s) to work**
-1. 
+**Link to work**: [Javascript functions sandbox](https://github.com/lizwade/liz_test/blob/main/javascript_functions_sandbox.html)
+
+<br>
