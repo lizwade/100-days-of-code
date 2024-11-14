@@ -29,3 +29,14 @@
 **Link to work**: [Javascript functions sandbox](https://github.com/lizwade/liz_test/blob/main/javascript_functions_sandbox.html)
 
 <br>
+
+### Day 4: Thursday 14 November 2024
+
+**Today's Progress**: Finished my first javascript kata and the first iteration of a timeIt function
+
+**Thoughts** This was a simple 8kyu kata, but interestingly my solution differs from most on the codewars site: most people used if/else statements to test whether the value was >=5, whereas I used the Math.round() function (after a quick check of the documentation for javascript Math methods) to do the work for me. This seemed elegant to me, but possibly it's more computionally expensive? This made me miss the timeIt magic function that Jupyter notebooks offered for your Python code. A quick google revealed there is no equivalent in JS so I wondered if I could write one. Since functions are values in JS (!!) I can pass the function I want to test as an argument to the timeIt function, and (in theory) the argument(s) to be tested as a second argument to timeIt. I did manage to get this working for single parameter functions (enough for this kata - although I was too distracted to complete the comparisons) but I haven't yet solved the problem of how to make it work to test functions with any number of arguments. I thought about overloading the function with versions for 0,1,2,3 parameters, but turns out you can't overload functions in JS. I then discovered the ... spread and rest operator, which sounds like exactly what I need, but my code is buggy / I'm not unpacking the arguments properly or something. I'm not au fait enough with JS debugging yet to solve this, so that's what I'll work on tomorrow.     
+
+**Link to work**: [Fake Binary kata](https://github.com/lizwade/javascript_katas/blob/d3f7db43265309a25dc1b01da310ab7824ed652a/javascript_katas.js)
+
+<br>
+
