@@ -40,3 +40,13 @@
 
 <br>
 
+### Day 5: Friday 15 November 2024
+
+**Today's Progress**: Nailed recursion, and invented Euclid's algorithm (almost)
+
+**Thoughts** I'm learning so much every day. Not necessarily what I'm supposed to be learning, but whatevs! My debugging plans were cast aside this morning, as I decided instead (inspired by yesterday's pre-work videos about problem-solving) to search the codewars katabank for a challenge in javascript tagged with 'recursion'. I wanted to kill two birds with one stone: practise javascript, and have another go at getting to grips with recursion, which I've always struggled to retain. The kata was to write a function to find the greatest common divisor of two integers. This sent me down a maths rabbit hole, which was lovely and reminded how much I like pure things. Through trial and error I worked out what I thought was a correct recursive algorithm that involved feeding the remainder from dividing the two integers back into the function with one of the integers. Coding it was easy once I let go of the fear of losing one of my original inputs. I made a note to self: in an iterative algorithm, we do DIFFERENT stuff to the SAME inputs. In a recursive algorithm, we do the SAME things to DIFFERENT inputs. Of course, the latter relies on proper mathematical equivalences - and this sent me down another rabbit hole, revising proofs by induction. I got a bit too tired to try proving my algorithm, so I rashly submitted it instead, and found that it passed nearly but not quite all the tests. I couldn't identify the error, so consulted the internet, where I discovered my algorithm was the same as an improved version of Euclid's (not bad!) but I was calling the recursive function with the two arguments in the wrong order. A quick switcheroo later and I had passed my second javascript kata.          
+
+**Link to work**: [Greatest Common Divisor kata](https://github.com/lizwade/javascript_katas/blob/5d52c44a90f6b39b3c37214052802f1bd9748df8/greatest_common_divisor.js)
+
+<br>
+
