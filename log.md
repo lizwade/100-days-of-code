@@ -50,3 +50,13 @@
 
 <br>
 
+### Day 6: Monday 18 November 2024
+
+**Today's Progress**: Got a lesson in humility thanks to javascript arrays
+
+**Thoughts** I picked another recursive kata, this one featuring arrays, thinking it would be a good way to get to familiarise myself with them. I thought I knew what needed to be done, and leapt into the code. But I am doing soemthing wrong re the arrays, and am getting strange output. I spent about an hour just sort of guessing what to change, without hitting on the solution (not surprising since I did not know where or what the problem was). I would have preferred to step through the code and debug it properly, but I still haven't worked out how to do that. And since that is probably a longish project, I was trying to avoid it. But there's no way round it - I have to get to grips with the debugging process (presumably in Chrome, as per our learning materials). It's late now so this will be my mission for tomorrow. This time I won't let myself get side-tracked!    
+
+**Link to work**: [Recursive Replication kata - not working](https://github.com/lizwade/javascript_katas/blob/4c719fa00f60a71188decf9d0d09634ab87ca31a/recursive_replication.js)
+
+<br>
+
