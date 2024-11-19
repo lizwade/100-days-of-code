@@ -60,3 +60,10 @@
 
 <br>
 
+### Day 7: Tuesday 19 November 2024
+
+**Today's Progress**: Practised debugging in Chrome (and thinking on paper)
+
+**Thoughts** In Andy Harris' video lecture "Think Like a Programmer", he talks about the importance of working out the logic of something on paper before starting to code, and how he likes to slam his students' laptop lids shut if they reach for the computer too soon. As a lover of pencils, I took this to heart this morning, and wrote out all the contents I expected my stack to have through its layers of recursion. This clarified how the two arguments needed to change in each layer, and therefore what the recursive call needed to be. I also realized I could solve my dilemma of not being able to "hold on" to the number once I'd converted it to an array, by simply grabbing the 0th element of the array each time, which will always be the number, and pushing that on to it (instead of pushing arrays on to arrays, which openend a world of pain that the spread operator seemed unable to fix). I still had to add "debugger" to my javascript in quite a lot of places (today's new toy) but with this, and adding breakpoints by clicking, I was able to follow the steps in the Chrome dev tools, and fix my errors.   
+
+**Link to work**: [Recursive Replication kata - working!](https://www.codewars.com/kata/reviews/575480c3a1445b44bc0000e7/groups/673c8b95feb88320e6332d3a)
