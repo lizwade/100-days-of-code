@@ -67,3 +67,13 @@
 **Thoughts** In Andy Harris' video lecture "Think Like a Programmer", he talks about the importance of working out the logic of something on paper before starting to code, and how he likes to slam his students' laptop lids shut if they reach for the computer too soon. As a lover of pencils, I took this to heart this morning, and wrote out all the contents I expected my stack to have through its layers of recursion. This clarified how the two arguments needed to change in each layer, and therefore what the recursive call needed to be. I also realized I could solve my dilemma of not being able to "hold on" to the number once I'd converted it to an array, by simply grabbing the 0th element of the array each time, which will always be the number, and pushing that on to it (instead of pushing arrays on to arrays, which openend a world of pain that the spread operator seemed unable to fix). I still had to add "debugger" to my javascript in quite a lot of places (today's new toy) but with this, and adding breakpoints by clicking, I was able to follow the steps in the Chrome dev tools, and fix my errors.   
 
 **Link to work**: [Recursive Replication kata - working!](https://www.codewars.com/kata/reviews/575480c3a1445b44bc0000e7/groups/673c8b95feb88320e6332d3a)
+
+<br>
+
+### Day 8: Wednesday 20 November 2024
+
+**Today's Progress**: Algorithm revision and more array practice
+
+**Thoughts** I didn't have much coding time today as I am busy sorting out my life admin before School of Code kicks off on Monday. I didn't finish filing my taxes until nearly 11pm, so after that it was just a quick kata so I wouldn't miss a day. I chose a bubble sort challenge, as it's good to revise these algorithms and also to practise working with arrays in javascript. Although actually it turns out you can directly assign a new value using indexing (I thought I'd have to use some special method). On my first attempt, I only included one loop to do one pass. I corrected that by adding an outer loop. My code does seem to sort the list correctly, but it is not currently taking all the right snapshots in all the right places as per the required output of the function. I'll have to debug it tomorrow!
+
+**Link to work**: [Bubble sort kata - not working](https://github.com/lizwade/javascript_katas/blob/18cfffe46487a45c1cb27db70f7d77f0b8652b9c/bubble_sort.js)
