@@ -86,4 +86,14 @@
 
 **Thoughts** It only took me a few minutes yesterday to write a close-to-correct bubble sort implemetation. It took me hours and much head-scratching to get from that broken thing to a fully functional version. My first problem, which took a lot of console.log commands to identify, was that the array of snapshots, which was supposed to keep a record of each state of the list, was losing its previous 'photos' whenever I pushed a revised list on to it, and I was ending up with dozens of copies of the final list instead. It took quite a bit of detective work to understand that in javascript, the push method only appends a *reference*, so if you change the state of the object it has a reference to, you change what appears in the array. This was unexpected behaviour, and it took me a while to discover the structuredClone solution to pass by value. (Later, when I failed the test because the buffer was full, I worried I was doing something with high space complexity, but it was just my zillion console.log messages flooding the system! I commented them out.) I also had to fix a logical error I'd make, thinking my outer loop could start from an incremented position each time instead of from the first element. Lastly, I had trouble meeting the requirements for if the argument is an empty array, because I was trying to discover this by testing its truthiness, but it turn out empty arrays are truthy or maybe falsy. That seemed weird and I couldn't quite get my head round it, but could easily take the advice to simply test the length instead. It was a good feeling to see the test page finally turn green!
 
-**Link to work**: [Bubble sort kata - not working](https://github.com/lizwade/javascript_katas/blob/2afcf186b01bfa68bc24253947b5344c9bb63128/bubble_sort.js)
+**Link to work**: [Bubble sort kata - working!](https://github.com/lizwade/javascript_katas/blob/2afcf186b01bfa68bc24253947b5344c9bb63128/bubble_sort.js)
+
+<br>
+
+### Day 10:Friday 22 November 2024
+
+**Today's Progress**: Got DOMmy with javascript
+
+**Thoughts** I have been enjoying implementing elgorithms in javascript, but if that was what I was here for, I wouldn't be using javascript. My course starts on Monday and I have a feeling that making web pages interactive will be a more pressing use case. Currently when I look at most .js pages I see a bunch of webby stuff about Documents and Event this and that which I don't understand. So today I studied a chapter in my Head First JavaScript programming book to learn about how to manipulate the DOM with a javascript function that uses getElementById, the innerHTML attribute, and the window.onload command. It wasn't too tricky, and I'm quite excited to get more webby now.  
+
+**Link to work**: [Using javascript to change the DOM][https://github.com/lizwade/experiments/blob/8a869a9ec3ef2d43dba60c1b7f4442197c9ac9bc/planets.html]
