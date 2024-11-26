@@ -110,11 +110,11 @@
 
 <br>
 
-### Day 11: Tuesday 27 November 2024
+### Day 11: Tuesday 27 November 2024 (honest)
 
 **Today's Progress**: Releasing my inner Matthew Broderick
 
 **Thoughts** As a tweenage girl in the 1980s, I wanted to be a boy. Specifically I wanted to be one of the boys in American films who types things in green writing into a black computer screen, which unlocks a maze of crazy graphics and alerts, because they've hacked into some mission-critical mainframe (Girls in movies did not get to do this). At SoC today, among many other things, we played a game where we had to try and trick an AI into revealing the password it was supposed to protect. It was a lot of fun trying to work out its vulnerabilities, and I made it to the end of 7 levels of hacking. It made me wonder if some sort of prompt-based cybersecurity could be an interesting career avenue. 
 
-**Link to work**: [Gandalf game (I didn't write it; I played it](https://gandalf.lakera.ai/baseline)
+**Link to work**: [Gandalf game (I didn't write it; I just played it)](https://gandalf.lakera.ai/baseline)
 
