@@ -80,7 +80,7 @@
 
 <br>
 
-### Day 9:Thursday 21 November 2024
+### Day 9: Thursday 21 November 2024
 
 **Today's Progress**: The joy of console.log
 
@@ -90,10 +90,19 @@
 
 <br>
 
-### Day 10:Friday 22 November 2024
+### Day 10: Friday 22 November 2024
 
 **Today's Progress**: Got DOMmy with javascript
 
 **Thoughts** I have been enjoying implementing elgorithms in javascript, but if that was what I was here for, I wouldn't be using javascript. My course starts on Monday and I have a feeling that making web pages interactive will be a more pressing use case. Currently when I look at most .js pages I see a bunch of webby stuff about Documents and Event this and that which I don't understand. So today I studied a chapter in my Head First JavaScript programming book to learn about how to manipulate the DOM with a javascript function that uses getElementById, the innerHTML attribute, and the window.onload command. It wasn't too tricky, and I'm quite excited to get more webby now.  
 
 **Link to work**: [Using javascript to change the DOM][https://github.com/lizwade/experiments/blob/8a869a9ec3ef2d43dba60c1b7f4442197c9ac9bc/planets.html]
+
+
+### Day 11: Monday 26 November 2024
+
+**Today's Progress**: Letting go of perfectionism
+
+**Thoughts** Today I started at the School of Code. Straight away, I was blown away by it. It's so much more than I was expecting, and about so much more than just code. I learnt a huge amount about meta-learning (the human kind), growth mindset, and ways to position ourselves professionally as Seniors Without Experience. What we didn't learn, yet, was anything involving code. Which is no problem - except for the need to complete this blog. I had assumed that this blog would kind of write itself once the course started, as I could just post something I'd done during my day. Probably that will be true later, but in the meantime, I don't think it's productive for me to try to do an hour of coding on top of what is already an intense day's work. As was emphasised today, we need to prioritise sleep. And we mustn't let the perfect be the enemy of the good. So I'm calling it that posting today with no code is better than giving up posting. (Confession: I'm actually posting this on Tuesday, when letting go of perfectionism was a topic. I've always struggled with this, so I'm taking it to heart!). 
+
+**Link to work**: None today
