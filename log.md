@@ -107,3 +107,14 @@
 **Thoughts** Today I started at the School of Code. Straight away, I was blown away by it. It's so much more than I was expecting, and about so much more than just code. I learnt a huge amount about meta-learning (the human kind), growth mindset, and ways to position ourselves professionally as Seniors Without Experience. What we didn't learn, yet, was anything involving code. Which is no problem - except for the need to complete this blog. I had assumed that this blog would kind of write itself once the course started, as I could just post something I'd done during my day. Probably that will be true later, but in the meantime, I don't think it's productive for me to try to do an hour of coding on top of what is already an intense day's work. As was emphasised today, we need to prioritise sleep. And we mustn't let the perfect be the enemy of the good. So I'm calling it that posting today with no code is better than giving up posting. (Confession: I'm actually posting this on Tuesday, when letting go of perfectionism was a topic. I've always struggled with this, so I'm taking it to heart!). 
 
 **Link to work**: None today
+
+<br>
+
+### Day 11: Tuesday 27 November 2024
+
+**Today's Progress**: Releasing my inner Matthew Broderick
+
+**Thoughts** As a tweenage girl in the 1980s, I wanted to be a boy. Specifically I wanted to be one of the boys in American films who types things in green writing into a black computer screen, which unlocks a maze of crazy graphics and alerts, because they've hacked into some mission-critical mainframe (Girls in movies did not get to do this). At SoC today, among many other things, we played a game where we had to try and trick an AI into revealing the password it was supposed to protect. It was a lot of fun trying to work out its vulnerabilities, and I made it to the end of 7 levels of hacking. It made me wonder if some sort of prompt-based cybersecurity could be an interesting career avenue. 
+
+**Link to work**: [Gandalf game (I didn't write it; I played it](https://gandalf.lakera.ai/baseline)
+
