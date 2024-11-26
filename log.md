@@ -98,6 +98,7 @@
 
 **Link to work**: [Using javascript to change the DOM][https://github.com/lizwade/experiments/blob/8a869a9ec3ef2d43dba60c1b7f4442197c9ac9bc/planets.html]
 
+<br>
 
 ### Day 11: Monday 26 November 2024
 
