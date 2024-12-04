@@ -122,7 +122,7 @@
 <h2>SOME TIME LATER...</h2>
 <br>
 
-### Day 12: Wednesday 3 December 2024
+### Day 12: Tuesday 3 December 2024
 
 **Today's Progress**: Objects, arrays, interpolated strings
 
