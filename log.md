@@ -138,7 +138,7 @@
 
 **Thoughts** Today we worked on debugging. I like to think I have a decent eye for spotting bugs, but by the end of today I had realised that just scanning code and hoping errors jump out at you is not a smart or systematic way to do it. Much better to use everything the console has to tell you, and hunt the bugs down line by line. Our team turned a very buggy random number guessing game into something that worked nicely. Best of all, I discovered that if something has been tagged as a bug on GitHub issues, then if you do a git commit with a message of "fixes #7", say, then the bug with that number will auto-resolve! SO satisfying.
 
-**Link to work**: [Random number guessing game, after our bug fixes (check the initial commit to see the mess we were handed!)] (https://github.com/SchoolOfCode/week-2-debugging-customer-challenge-room12-wk2/blob/main/script.js) 
+**Link to work**: [Random number guessing game, after our bug fixes (check the initial commit to see the mess we were handed!)](https://github.com/SchoolOfCode/week-2-debugging-customer-challenge-room12-wk2/blob/main/script.js) 
 
 <br>
 
@@ -158,6 +158,6 @@
 
 **Thoughts** We finished our second hackathon today. It was a Rock Paper Scissors game, and our team managed to complete all the tasks and several of the extension tasks, so that was pleasing. Even more pleasing was that we did it in what we thought was a smart, resusable, extendable way, with an array in which each element beats the one before it, using modulo arithmetic to wrap back round to the start. This abstraction made it very flexible, and we were able to complete the extension task (Rock Paper Scissors Lizard Spock) just by adding the two new items to the array and adding one additional test for the new losing rule. Our feedback, though, was that hard-coding the rules (given how simple they are) would have been quicker to do and easier to read, and I was introduced to the concept of YAGNI or "You ain't gonna need it". This chafes a bit with my original schooling in programming, which stressed thinking ahead and always aiming to write reusable code. But then again, that was a long time ago, before agile and XP were widely adopted. I guess (as my mentor said in our first meeting today) it's always a balancing act.   
 
-**Link to work**: [Our Rock Paper Scissors game] (https://github.com/SchoolOfCode/week-2-hackathon-rock-paper-scissors-room12-wk2/commit/5357b1fcd44e1148284b836f6bf6a7ee335aff75)
+**Link to work**: [Our Rock Paper Scissors game](https://github.com/SchoolOfCode/week-2-hackathon-rock-paper-scissors-room12-wk2/commit/5357b1fcd44e1148284b836f6bf6a7ee335aff75)
 
 <br>
