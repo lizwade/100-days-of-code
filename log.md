@@ -171,3 +171,14 @@
 
 **Link to work**: [Shopping list](https://github.com/lizwade/sandbox/blob/main/shopping_list.html)
 
+<br>
+
+### Day 17: Monday 9 December 2024
+
+**Today's Progress**: Doing cool things to web pages
+
+**Thoughts** Today was a bit of a slow burn. We went down a DOM hole, confused by the difference between .children and .firstChild / .lastChild (the former selects only html elements, while the latter select any node including text - which is an illogical discrepancy if you ask me). This meant we didn't have enough team time to get very far through our exercises. But I decided to carry on solo this evening and I found it got easier as I went on and the process of grabbing and appending became more fluent. I particularly enjoyed using js to manipulate a big old dataset, and managed to write the code to grab everyone's names, ages and photos from the database, and turn it into a mini-facebook webpage - and with only a couple of little bugs that I was able to iron out straight away. So satifying!   
+
+
+**Link to work**: [Fledgling Facebook clone](https://github.com/lizwade/sandbox/blob/main/SOCbook/SOCbook.js)
+
