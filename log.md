@@ -177,7 +177,7 @@
 
 **Today's Progress**: Doing cool things to web pages
 
-**Thoughts** Today was a bit of a slow burn. We went down a DOM hole, confused by the difference between .children and .firstChild / .lastChild (the former selects only html elements, while the latter select any node including text - which is an illogical discrepancy if you ask me). This meant we didn't have enough team time to get very far through our exercises. But I decided to carry on solo this evening and I found it got easier as I went on and the process of grabbing and appending became more fluent. I particularly enjoyed using js to manipulate a big old dataset, and managed to write the code to grab everyone's names, ages and photos from the database, and turn it into a mini-facebook webpage - and with only a couple of little bugs that I was able to iron out straight away. So satisfying!   
+**Thoughts** Today was a bit of a slow burn. We went down a DOM hole, confused by the difference between .children and .firstChild / .lastChild (the former selects only html elements, while the latter select any node including text - which is an illogical discrepancy if you ask me). This meant we didn't have enough team time to get very far through our exercises. But I decided to carry on solo this evening and I found it got easier as I went on and the process of grabbing and appending became more fluent. I particularly enjoyed using js to manipulate a big old (hardcoded) dataset, and managed to write the code to grab everyone's names, ages and photos from the database, and turn it into a mini-facebook webpage - and with only a couple of little bugs that I was able to iron out straight away. So satisfying!   
 
 
 **Link to work**: [Fledgling Facebook clone](https://github.com/lizwade/sandbox/blob/main/SOCbook/SOCbook.js)
@@ -188,7 +188,7 @@
 
 **Today's Progress**: DOM wizardy
 
-**Thoughts** x
+**Thoughts** Today we practised using event listeners to change the DOM and make dynamic stuff happen. I find it a little hard to rationalize where the listener should be. One exercise involved a color picker and a canvas which we had to make change in response. My instinct (probably a hangover from OO principles that an object should be encapsulated and responsible for changing its own state) was that the event listener should go on the canvas and listen for changes from the color picker. But it turns out you just put the listener on the color picker (makes sense, because that's where the user input is happening) and then let the color picker do whatever it likes to other elements! I also got this star slider working, although in a slightly cheaty way (I think we were supposed to be adding / removing whole spans, rather than just changing text content. But it works!  
 
 **Link to work**: [Star Slider] (https://github.com/lizwade/sandbox/tree/main/star_slider)
 
@@ -197,21 +197,21 @@
 
 ### Day 19: Wednesday 11th December 2024
 
-**Today's Progress**: A very fetching web page!
+**Today's Progress**: A very fetching web page
 
-**Thoughts** Husband's birthday tomorrow
+**Thoughts** API time! Our prep was to follow on Odin Project tutorial which explained APIs and walked us through how to send a fetch request to the API at giphy.com (including getting a free API key). I didn't fully understand all the steps and why we needed all the .then statements, but it will become clear I'm sure. In the meantime, I got a lot of pleasure changing the end of the query from s=cats to s=dogs and thus creating a whole different site, which, since it's my husband's birthday tomorow, and he loves dog gifs, I uploaded to real web space and sent to him as a gift.   
 
-**Link to work**: [Dog GIF generator] ([https://github.com/lizwade/sandbox/tree/main/star_slider](https://liquify.net/malc/)
+**Link to work**: [Dog GIF generator] (https://liquify.net/malc/)
 
 <br>
 
 ### Day 20: Thursday 12th December 2024
 
-**Today's Progress**: xx
+**Today's Progress**: Promises, promises!
 
-**Thoughts** x
+**Thoughts** Today we learnt about how fetch statements return promises in lieu of their data, but that you can have the data (later) instead of the promise (now) if you use await before your fetch statement. But then you will need to make your function asynchronous so it won't block the rest of the code from running. (I think I've got that right.) We used this understanding to adapt a random joke app, so that instead of picking a random joke from its small hard-coded array, it fetched a random joke from the Dad Jokes API. We had to use an async function for the fetch, and make one other function async as well, but didn't need to change the rest of the code. 
 
-**Link to work**: 
+**Link to work**: [modified Dad Jokes app] (https://github.com/lizwade/sandbox/blob/main/dad_jokes/app.js)
 
 <br>
 
@@ -219,8 +219,7 @@
 
 **Today's Progress**: Games with Fetch!
 
-**Thoughts** Today was our hackathon (this week a "fetch-a-thon"). The team  
+**Thoughts** Today was our hackathon (this week a "fetch-a-thon"). The team I was on decided to do something a bit more ambitious than just fetching a random item. We spent a while exploring APIs that don't need a key (the rules disallowed APIs with keys - presumably that makes things too complex for where we are right now) and disappointingly most didn't have very interesting data sets. We had wanted to make a dog dating app, but this would have required some attributes to go on eg temperament, etc. Eventually we found a birdsong API with lots of great data in it, and decided to make a game where the listener hears birdsong and has to guess which of three bird species produced that song. We made some errors in our planning, as a result of which we ended up with one piece of code that could pull the data and play the song but didn't work as a game, and another piece of code with the game working, but hard-coded. We fell into a hell of unfulfilled promises cascading from function to function when we tried to join them up, and didn't have enough time to solve it. It felt like we would need to make *every* function async to get round it (although my mentor said sometimes you do and that's ok). Despite our failure, I'm quite excited now because for the first time I have a something I'm inspired to go back and try to improve as a personal project. Watch this space!   
 
-
-**Link to work**: team repository
+**Link to work**: [Semi-functioning birdsong game - team repo] (https://github.com/SchoolOfCode/week-3-hackathon-hohoho)
 
