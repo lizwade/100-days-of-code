@@ -110,7 +110,7 @@
 
 <br>
 
-### Day 11: Tuesday 27 November 2024 (honest)
+### Day 12: Tuesday 27 November 2024 (honest)
 
 **Today's Progress**: Releasing my inner Matthew Broderick
 
@@ -122,7 +122,7 @@
 <h2>SOME TIME LATER...</h2>
 <br>
 
-### Day 12: Tuesday 3 December 2024
+### Day 13: Tuesday 3 December 2024
 
 **Today's Progress**: Objects, arrays, interpolated strings
 
@@ -132,7 +132,7 @@
 
 <br>
 
-### Day 13: Wednesday 4 December 2024
+### Day 14: Wednesday 4 December 2024
 
 **Today's Progress**: Debugging: naked eyes are not enough!
 
@@ -142,7 +142,7 @@
 
 <br>
 
-### Day 14: Thursday 5 December 2024
+### Day 15: Thursday 5 December 2024
 
 **Today's Progress**: A clearer idea of my strengths and preferences
 
@@ -152,7 +152,7 @@
 
 <br>
 
-### Day 15: Friday 6 December 2024
+### Day 16: Friday 6 December 2024
 
 **Today's Progress**: A lesson in YAGNI
 
@@ -162,7 +162,7 @@
 
 <br>
 
-### Day 16: Sunday 8 December 2024
+### Day 17: Sunday 8 December 2024
 
 **Today's Progress**: Event Listeners (sort of)
 
@@ -173,7 +173,7 @@
 
 <br>
 
-### Day 17: Monday 9 December 2024
+### Day 18: Monday 9 December 2024
 
 **Today's Progress**: Doing cool things to web pages
 
@@ -184,7 +184,7 @@
 
 <br>
 
-### Day 18: Tuesday 10th December 2024
+### Day 19: Tuesday 10th December 2024
 
 **Today's Progress**: DOM wizardy
 
@@ -195,7 +195,7 @@
 
 <br>
 
-### Day 19: Wednesday 11th December 2024
+### Day 20: Wednesday 11th December 2024
 
 **Today's Progress**: A very fetching web page
 
@@ -205,7 +205,7 @@
 
 <br>
 
-### Day 20: Thursday 12th December 2024
+### Day 21: Thursday 12th December 2024
 
 **Today's Progress**: Promises, promises!
 
@@ -215,7 +215,7 @@
 
 <br>
 
-### Day 21: Friday 13th December 2024
+### Day 22: Friday 13th December 2024
 
 **Today's Progress**: Games with Fetch!
 
