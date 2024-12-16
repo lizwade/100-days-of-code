@@ -190,7 +190,7 @@
 
 **Thoughts** Today we practised using event listeners to change the DOM and make dynamic stuff happen. I find it a little hard to rationalize where the listener should be. One exercise involved a color picker and a canvas which we had to make change in response. My instinct (probably a hangover from OO principles that an object should be encapsulated and responsible for changing its own state) was that the event listener should go on the canvas and listen for changes from the color picker. But it turns out you just put the listener on the color picker (makes sense, because that's where the user input is happening) and then let the color picker do whatever it likes to other elements! I also got this star slider working, although in a slightly cheaty way (I think we were supposed to be adding / removing whole spans, rather than just changing text content. But it works!  
 
-**Link to work**: [Star Slider] (https://github.com/lizwade/sandbox/tree/main/star_slider)
+**Link to work**: [Star Slider](https://github.com/lizwade/sandbox/tree/main/star_slider)
 
 
 <br>
@@ -201,7 +201,7 @@
 
 **Thoughts** API time! Our prep was to follow on Odin Project tutorial which explained APIs and walked us through how to send a fetch request to the API at giphy.com (including getting a free API key). I didn't fully understand all the steps and why we needed all the .then statements, but it will become clear I'm sure. In the meantime, I got a lot of pleasure changing the end of the query from s=cats to s=dogs and thus creating a whole different site, which, since it's my husband's birthday tomorow, and he loves dog gifs, I uploaded to real web space and sent to him as a gift.   
 
-**Link to work**: [Dog GIF generator] (https://liquify.net/malc/)
+**Link to work**: [Dog GIF generator](https://liquify.net/malc/)
 
 <br>
 
@@ -211,7 +211,7 @@
 
 **Thoughts** Today we learnt about how fetch statements return promises in lieu of their data, but that you can have the data (later) instead of the promise (now) if you use await before your fetch statement. But then you will need to make your function asynchronous so it won't block the rest of the code from running. (I think I've got that right.) We used this understanding to adapt a random joke app, so that instead of picking a random joke from its small hard-coded array, it fetched a random joke from the Dad Jokes API. We had to use an async function for the fetch, and make one other function async as well, but didn't need to change the rest of the code. 
 
-**Link to work**: [modified Dad Jokes app] (https://github.com/lizwade/sandbox/blob/main/dad_jokes/app.js)
+**Link to work**: [modified Dad Jokes app](https://github.com/lizwade/sandbox/blob/main/dad_jokes/app.js)
 
 <br>
 
@@ -221,5 +221,16 @@
 
 **Thoughts** Today was our hackathon (this week a "fetch-a-thon"). The team I was on decided to do something a bit more ambitious than just fetching a random item. We spent a while exploring APIs that don't need a key (the rules disallowed APIs with keys - presumably that makes things too complex for where we are right now) and disappointingly most didn't have very interesting data sets. We had wanted to make a dog dating app, but this would have required some attributes to go on eg temperament, etc. Eventually we found a birdsong API with lots of great data in it, and decided to make a game where the listener hears birdsong and has to guess which of three bird species produced that song. We made some errors in our planning, as a result of which we ended up with one piece of code that could pull the data and play the song but didn't work as a game, and another piece of code with the game working, but hard-coded. We fell into a hell of unfulfilled promises cascading from function to function when we tried to join them up, and didn't have enough time to solve it. It felt like we would need to make *every* function async to get round it (although my mentor said sometimes you do and that's ok). Despite our failure, I'm quite excited now because for the first time I have a something I'm inspired to go back and try to improve as a personal project. Watch this space!   
 
-**Link to work**: [Semi-functioning birdsong game - team repo] (https://github.com/SchoolOfCode/week-3-hackathon-hohoho)
+**Link to work**: [Semi-functioning birdsong game - team repo](https://github.com/SchoolOfCode/week-3-hackathon-hohoho)
+
+<br>
+
+### Day 23: Monday 16th December 2024
+
+**Today's Progress**: Breaking the back of back end
+
+**Thoughts** Our weekend prep was to install node and npm and do a little tutorial. Today we put it into practice with  a workshop where we had to read and write files, using async functions, and implement various functionality like editing elements, removing elements etc. At first I thought I would never get through the cascading unfulfilled promises, but once we'd cracked the first function, most of the rest didn't have to do much new with fs, it was just a question of hunting down good methods for splicing strings and finding objects by the value of one of their properties etc. The hardest part was not being able to play around with code in the console to check it. I resorted to typing my code into one of the little "try it" boxes on the mozilla developer site. Having felt defeated by the second ticket at 4pm, I rallied after dinner, fixed it, and went on to finish all the other tickets too. Felt so good watching the tests turn green!
+
+**Link to work**: [Working with files](https://github.com/SchoolOfCode/week-4-working-with-files-dalik/commit/6c57470f1007e7a797dc6fff4c3ac08bf2613b75)
+
 
