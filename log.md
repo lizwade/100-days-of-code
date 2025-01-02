@@ -233,4 +233,12 @@
 
 **Link to work**: [Working with files](https://github.com/SchoolOfCode/week-4-working-with-files-dalik/commit/6c57470f1007e7a797dc6fff4c3ac08bf2613b75)
 
+<br>
 
+### Day 24: Thursday 2nd January 2025
+
+**Today's Progress**: A timely return
+
+**Thoughts** The rest of backend week went well, although I was pretty bored of API endpoints by the end of it. For Christmas the School of Code gave us a student subscription to github co-pilot (which I have yet to check out) and a Scrimba account, where I had a lot of fun trying a couple of the Javascriptmas advent calendar challenges. That inspired me to spend a couple of days going back over some basic js methods of arrays and objects, since I found myself reinventing the wheel rather too much due to lack of familiarity with the built-in functions. I headed back to Codewars to give my new skills a spin, and chose a 6kyu kata called arraydiff, where all the elements in one array were to be removed from another. I wrote a recursive solution, which according to my console.log statements was logically correct and producing the right value - yet it was returning undefined. I was convinced the kata tests were buggy, and began to research how to raise an issue, which involved trying the same code in my IDE, where I discovered it was returning undefined in the console too (although once again, console.log logged the variable as holding the correct value). I was stumped by this discrepancy, and decided I would need to ask my mentor. But, as so often happens, in the process of carefully preparing to ask for help, I solved my own problem. It was so blindingly simple - I was calling the function recursively in the right place, but without the word "return", so it was daisy-chaining all the values correctly, but at the end of it all there was nothing there. The recursion curse strikes again! But I think now I will remember not to repeat this error. (And also to be careful of console.log, which my debugging research reveals can also give misleading results in other circumstances, eg in async functions where it can sometimes show a variable having a value even though it did not yet have that value at the time of logging - something I remember half-discovering myself when working with promises. Must get to get grips with breakpoints instead...) 
+
+**Link to work**: [arraydiff kata, solved but with my debugging efforts left in](https://github.com/lizwade/javascript_katas/blob/main/arraydiff.js)
